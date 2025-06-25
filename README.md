@@ -52,7 +52,7 @@ PyTorch, NumPy, transformers from the SAM Lib and diffusers from StableDiffusion
 
 
 
-
+# Performance and Small Model Alternatives
 
 If you are looking for an smaller Model (maybe because you don't have much of memory on your Device) an alternative could be SmolVLM
 
