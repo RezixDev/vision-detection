@@ -36,6 +36,9 @@ https://huggingface.co/spaces/merve/OWLSAM
 
 I guess this is the most simple example to showacase the use of SAM.
 
+Before (like 6-10 Years ago) when someone wanted to replace an Object on an Image or remove someone from an Photo, the Knowledge how Lasso Tool or Magic Wand worked was needed. Today it's not the case anymore! With Tools like GenAI and Smart Object Detection some problems don't exist anymore. 
+
+
 For the presentation we can use GUI Tools like:
 
 ComfyUI
@@ -44,13 +47,19 @@ https://github.com/comfyanonymous/ComfyUI
 Gradio
 https://github.com/gradio-app/gradio
 
-For example A1111 is based on Gradio:
+Fun fact: A1111 is based on Gradio:
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 Python Packages we are going to use are:
 PyTorch, NumPy, transformers from the SAM Lib and diffusers from StableDiffusion.
 
+## Project Steps 
 
+There are generally three steps which we need to make:
+
+1. Identify the Object and define which part is the background and which is the Object which is needed to stay.
+2. Remove the Background and keep the Main Object in Place.
+3. Generate the Background usingStable Diffusion
 
 # Performance and Small Model Alternatives
 
