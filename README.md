@@ -28,6 +28,35 @@ https://github.com/yangchris11/samurai
 Paper:
 https://arxiv.org/pdf/2411.11922
 
+OWL SAM, Segmentation Mask via Text-Prompting:
+https://huggingface.co/spaces/merve/OWLSAM
+
+
+## How to replace Background in a given Image using SAM and Stable Diffusion
+
+I guess this is the most simple example to showacase the use of SAM.
+
+For the presentation we can use GUI Tools like:
+
+ComfyUI
+https://github.com/comfyanonymous/ComfyUI
+
+Gradio
+https://github.com/gradio-app/gradio
+
+For example A1111 is based on Gradio:
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+Python Packages we are going to use are:
+PyTorch, NumPy, transformers from the SAM Lib and diffusers from StableDiffusion.
+
+
+
+
+
+If you are looking for an smaller Model (maybe because you don't have much of memory on your Device) an alternative could be SmolVLM
+
+https://huggingface.co/blog/smolvlm
 
 
 
